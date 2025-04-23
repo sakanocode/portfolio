@@ -1,0 +1,75 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>リンクトラベル/お問い合わせ</title>
+<!-- InstanceEndEditable -->
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!--ヘッダー始まり-->
+<header>
+<h1><img src="images/logo.png" width="215" height="50" alt="リンクトラベルロゴ"/></h1>
+<nav>
+  <ul>
+    <li><a href="index.html">Top</a></li>
+    <li><a href="service.html">Service</a></li>
+    <li><a href="plan.html">Plan</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+<!--ヘッダー終わり-->
+<!--メイン画像始まり-->
+<!-- InstanceBeginEditable name="mainimage" -->
+<div id="main_image"></div>
+<img src="images/contact.png" width="980" height="100" alt="リンクトラベルお問合せ"/><!-- InstanceEndEditable -->
+<!--メイン画像終わり-->
+<!--メイン始まり-->
+<div id="wrapper"><!-- InstanceBeginEditable name="main" -->
+  <main>
+	  <h2>リンクトラベルお問合せフォーム</h2>
+  <form id="contact">
+	  <dl>
+	<dt>お名前 </dt>
+    <dd><input type="text" name="name" id="name"/></dd>
+<dt>メールアドレス</dt>
+<dd><input type="text" name="email" id="email"/></dd>
+<dt>出発予定日</dt>
+<dd><input type="text" name="departure"/></dd>
+<dt>海外旅行の経験</dt>
+<dd>
+<label><input type="radio" name="experience" value="yes">あり</label>
+<label><input type="radio" name="experience" value"no">なし</label>
+</dd>
+<dt>旅行の目的</dt>
+<dd>
+<label><input type="checkbox" name="purpose" value="sightseeing">観光</label>
+<label><input type="checkbox" name="purpose" value="gourmet">グルメ</label>
+<label><input type="checkbox" name="purpose" value="shopping">ショッピング</label>
+		  </dd>
+<dt>お問合せ内容</dt>
+<dd>
+<textarea id="comment" name="comment"></textarea>
+		  </dd>
+	  </dl>
+	  <div id="button">
+	  <input type="reset" id="reset" value="リセット">
+	  <input type="submit" id="submit" value="送信">
+	  </div>
+	  </form>
+	</main>
+
+	<!-- InstanceEndEditable --></div>
+<!--メイン終わり-->
+<!--フッター始まり-->
+<footer>
+<small>&copy;2016 Link Travel</small>
+</footer>
+<!--フッター終わり-->
+</body>
+<!-- InstanceEnd --></html>
