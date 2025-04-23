@@ -23,11 +23,13 @@ header {
  margin-left: auto;
 }
 
+
 header h1 {
-  float: left;
-  height: 50px;
-  width: 215px;
+  margin: 20px 0;
+  font-size: 32px;
+  text-align: center;
 }
+
 
 nav {
   width: 980px;
