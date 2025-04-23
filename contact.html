@@ -1,75 +1,107 @@
-<!doctype html>
-<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>リンクトラベル/お問い合わせ</title>
-<!-- InstanceEndEditable -->
-<link href="css/common.css" rel="stylesheet" type="text/css">
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+  <meta charset="UTF-8">
+  <title>お問い合わせ | リンクトラベル</title>
+  <link href="common.css" rel="stylesheet" type="text/css">
+  <style>
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+    form div {
+      margin-bottom: 15px;
+    }
+    label {
+      display: inline-block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea {
+      width: 100%;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+    }
+    .button-group {
+      text-align: right;
+    }
+  </style>
 </head>
-
 <body>
-<!--ヘッダー始まり-->
-<header>
-<h1><img src="images/logo.png" width="215" height="50" alt="リンクトラベルロゴ"/></h1>
-<nav>
-  <ul>
-    <li><a href="index.html">Top</a></li>
-    <li><a href="service.html">Service</a></li>
-    <li><a href="plan.html">Plan</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-</header>
-<!--ヘッダー終わり-->
-<!--メイン画像始まり-->
-<!-- InstanceBeginEditable name="mainimage" -->
-<div id="main_image"></div>
-<img src="images/contact.png" width="980" height="100" alt="リンクトラベルお問合せ"/><!-- InstanceEndEditable -->
-<!--メイン画像終わり-->
-<!--メイン始まり-->
-<div id="wrapper"><!-- InstanceBeginEditable name="main" -->
-  <main>
-	  <h2>リンクトラベルお問合せフォーム</h2>
-  <form id="contact">
-	  <dl>
-	<dt>お名前 </dt>
-    <dd><input type="text" name="name" id="name"/></dd>
-<dt>メールアドレス</dt>
-<dd><input type="text" name="email" id="email"/></dd>
-<dt>出発予定日</dt>
-<dd><input type="text" name="departure"/></dd>
-<dt>海外旅行の経験</dt>
-<dd>
-<label><input type="radio" name="experience" value="yes">あり</label>
-<label><input type="radio" name="experience" value"no">なし</label>
-</dd>
-<dt>旅行の目的</dt>
-<dd>
-<label><input type="checkbox" name="purpose" value="sightseeing">観光</label>
-<label><input type="checkbox" name="purpose" value="gourmet">グルメ</label>
-<label><input type="checkbox" name="purpose" value="shopping">ショッピング</label>
-		  </dd>
-<dt>お問合せ内容</dt>
-<dd>
-<textarea id="comment" name="comment"></textarea>
-		  </dd>
-	  </dl>
-	  <div id="button">
-	  <input type="reset" id="reset" value="リセット">
-	  <input type="submit" id="submit" value="送信">
-	  </div>
-	  </form>
-	</main>
 
-	<!-- InstanceEndEditable --></div>
-<!--メイン終わり-->
-<!--フッター始まり-->
+<header>
+  <h1><a href="index.html">リンクトラベル</a></h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Top</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="plan.html">Plan</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <img src="image/contact.png" alt="お問い合わせ" style="width:100%; height:auto; border-radius:6px; margin-bottom: 20px;">
+
+  <h2>リンクトラベルお問合せフォーム</h2>
+
+  <form>
+    <div>
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div>
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="date">出発予定日</label>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <div>
+      <label>海外旅行の経験</label><br>
+      <input type="radio" id="yes" name="experience" value="あり">
+      <label for="yes">あり</label>
+      <input type="radio" id="no" name="experience" value="なし">
+      <label for="no">なし</label>
+    </div>
+
+    <div>
+      <label>旅行の目的</label><br>
+      <input type="checkbox" id="sightseeing" name="purpose" value="観光">
+      <label for="sightseeing">観光</label>
+      <input type="checkbox" id="gourmet" name="purpose" value="グルメ">
+      <label for="gourmet">グルメ</label>
+      <input type="checkbox" id="shopping" name="purpose" value="ショッピング">
+      <label for="shopping">ショッピング</label>
+    </div>
+
+    <div>
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <div class="button-group">
+      <input type="reset" value="リセット">
+      <input type="submit" value="送信">
+    </div>
+  </form>
+</main>
+
 <footer>
-<small>&copy;2016 Link Travel</small>
+  <small>&copy;2024 Link Travel</small>
 </footer>
-<!--フッター終わり-->
+
 </body>
-<!-- InstanceEnd --></html>
+</html>
