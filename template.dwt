@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>リンクトラベル/ハワイツアー</title>
+<!-- TemplateEndEditable -->
+<link href="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/css/common.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!--ヘッダー始まり-->
+<header>
+<h1><img src="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/images/logo.png" width="215" height="50" alt="リンクトラベルロゴ"/></h1>
+<nav>
+  <ul>
+    <li><a href="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/index.html">Top</a></li>
+    <li><a href="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/service.html">Service</a></li>
+    <li><a href="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/plan.html">Plan</a></li>
+    <li><a href="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+<!--ヘッダー終わり-->
+<!--メイン画像始まり-->
+<!-- TemplateBeginEditable name="mainimage" -->
+<div id="main_image"> <img src="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/images/main.png" width="980" height="310" alt="リンクトラベルオリジナルツアー"/></div>
+<!-- TemplateEndEditable -->
+<!--メイン画像終わり-->
+<!--メイン始まり-->
+<div id="wrapper"><!-- TemplateBeginEditable name="main" -->
+  <main>
+    <div id="point">
+      <h2>他とは違うハワイだけの魅力</h2>
+      <section>
+        <h3>自然</h3>
+        <figure> <img src="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/images/point1.png" width="320" height="200" alt="広がる大地の画像"/>
+          <figcaption>広がる大地</figcaption>
+        </figure>
+        <p>地球上に「楽園」と呼ばれるスポットは数あれど、ハワイほど魅力的な場所はありません。 世界中の人々の心を掴んで離さない理由は、バリエーションに富んだ自然の表情にあるのではないでしょうか。 どこまでも蒼く澄んだビーチ、緑あふれる自然公園、神秘的な火山、降り注ぐような満点の星空…。 ハワイの豊かな自然は日常に疲れた私たちをそっと癒やすだけでなく、地球のパワーを分け与えてくれる場所。 息を呑むほど美しい景色がきっとあなたを元気にしてくれます。 </p>
+      </section>
+      <section>
+        <h3>グルメ</h3>
+        <figure> <img src="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/images/point2.png" width="320" height="200" alt="フレッシュなフルーツ"/>
+          <figcaption>フレッシュなフルーツ</figcaption>
+        </figure>
+        <p>フレッシュな食べ物がいっぱいのハワイ。目にも鮮やかなトロピカルフルーツで太陽をいっぱい浴びた体を回復させる朝からスタートしたら、ランチタイムはパンケーキにエッグベネディクト、ロコモコでしっかりパワー補給。 
+          夕焼けが海の向こうに吸い込まれたら、思いっきりドレスアップしてディナータイム。そよ風を頬に感じながらとれたてのシーフードを楽しんで。 高給ホテルのリッチな食事も素敵だけど、フードトラックで買う熱々のローカルフードも楽しい。</p>
+      </section>
+      <section>
+        <h3>癒しの空間</h3>
+        <figure> <img src="../../Documents/アビバ_HTML・CSS/第9回/webcd_basic_09complete/images/point3.png" width="320" height="200" alt="ラグジュアリーなホテルの画像"/>
+          <figcaption>ラグジュアリーなホテル</figcaption>
+        </figure>
+        <p>海と大地と新鮮な食べ物に元気をもらったら、ぜひ「癒やし空間」を体験してみて。 
+          ハワイにはリラクゼーション効果の高いスパがたくさん！その中でも一番人気は肘や手を使って行う「ロミロミマッサージ」。王族のためのトリートメント技術と言われるこのマッサージは体の芯からリラックスできると評判です。リーズナブルな価格帯のお店も多く、女性限定や貸し切りなど、目的に応じて選べるバリエーションの豊富さも魅力。 
+          男性も女性も気軽に入れるスパが多いので、日替わりでいろんなところをめぐってみるのも楽しいかも。 </p>
+      </section>
+    </div>
+    <div id="news" style="">
+      <h2>お知らせ</h2>
+      <dl>
+        <dt>2016/06/20</dt>
+        <dd>リンクトラベルツアー限定サービスのご紹介</dd>
+        <dt>2016/06/15</dt>
+        <dd>ツアープランを公開しました</dd>
+        <dt>2016年6月10日</dt>
+        <dd>特設サイトがオープンしました！</dd>
+      </dl>
+    </div>
+  </main>
+<!-- TemplateEndEditable --></div>
+<!--メイン終わり-->
+<!--フッター始まり-->
+<footer>
+<small>&copy;2016 Link Travel</small>
+</footer>
+<!--フッター終わり-->
+</body>
+</html>
